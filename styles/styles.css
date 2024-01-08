@@ -17,9 +17,6 @@ span .red {
     color: #F00;
 }
 
-/* div {
-    border: 2px solid red;
-} */
 
 .div-container {
     width: 1320px;
@@ -171,6 +168,72 @@ span .red {
 
 .portfolio-container {
     margin-top: 120px;
+    width: 1320px;
+    /* height: 7335px; */
+    /* border: 1px solid rgb(255, 208, 0); */
+    text-align: left;
+    margin: auto;
+}
+
+.portfolio-content {
+    #
+}
+
+.portfolio-small-head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.portfolio-head {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+}
+
+.portfolio-text {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 48px;
+}
+
+.portfolio-img {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1320px;
+    /* margin-left: 140px;
+    margin-right: 140px; */
+    margin: auto;
+    border: none;
+    text-align: justify;
+}
+
+.portfolio-img img {
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    /* background: lightgray 50% / cover no-repeat; */
+    padding-right: 12px;
+}
+.portfolio-img img:hover {
+    opacity: 0.3;
+}
+.port-img-group-1 {
+    /* # */
+}
+
+.port-img-group-2 {
+    /* # */
 }
 
 .subscribe-container {
