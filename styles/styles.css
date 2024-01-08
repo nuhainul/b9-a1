@@ -67,9 +67,40 @@ span .red {
 
 /* main body styles */
 .deals-container {
-    /* font-family: 'Inter', sans-serif; */
     padding-top: 120px;
     text-align: center;
+}
+
+.discount-head {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+
+.discount-info {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.discount-content {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+
+.discount-img {
+    width: 802px;
+    margin: auto;
 }
 
 .join-container {
@@ -93,7 +124,7 @@ span .red {
     padding-top: 120px;
 }
 
-.subscribe-container{
+.subscribe-container {
     padding-top: 120px;
     padding-bottom: 120px;
 }
