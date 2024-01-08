@@ -8,6 +8,14 @@ body {
     max-height: 1600px;
 }
 
+div {
+    border: 2px solid red;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* header styles */
 .banner-container {
     background-image: url('../images/Banner\ Image.png');
@@ -21,7 +29,14 @@ body {
 }
 
 /* main body styles */
+.deals-container>div {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
 
+.join-container {
+    background-image: url('../images/Vectorrr.png');
+}
 
 /* footer styles */
 footer {
