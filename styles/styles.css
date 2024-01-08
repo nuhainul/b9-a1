@@ -66,13 +66,36 @@ span .red {
 }
 
 /* main body styles */
-.deals-container>div {
-    font-family: 'Inter', sans-serif;
+.deals-container {
+    /* font-family: 'Inter', sans-serif; */
+    padding-top: 120px;
     text-align: center;
 }
 
 .join-container {
     background-image: url('../images/Vectorrr.png');
+    padding-top: 120px;
+}
+
+.venue-time-container {
+    padding-top: 120px;
+}
+
+.offer-2024-container {
+    padding-top: 120px;
+}
+
+.holiday-sale-container {
+    padding-top: 120px;
+}
+
+.portfolio-container {
+    padding-top: 120px;
+}
+
+.subscribe-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 /* footer styles */
