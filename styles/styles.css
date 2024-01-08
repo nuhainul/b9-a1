@@ -2,14 +2,31 @@
 * {
     font-family: 'Merriweather', serif;
     /* font-family: 'Inter', sans-serif; */
+    color: #070211;
 }
 
 body {
     margin: 0%;
 }
 
+header{
+    margin-top: 50px;
+}
+
+span red{
+    color: #F00;
+}
+
 div {
     border: 2px solid red;
+}
+
+.div-container{
+    width: 1320px;
+    text-align: center;
+    margin: auto;
+    /* margin-left: 140px;
+    margin-right: 140px; */
 }
 
 .uppercase {
@@ -43,4 +60,10 @@ footer {
     width: 100%;
     background-color: #070211;
     color: white;
+}
+.footer-container{
+    width: 1320px;
+    margin: auto;
+    padding-left: 140px;
+    padding-right: 140px;
 }
