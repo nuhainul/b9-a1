@@ -1,5 +1,8 @@
 /* shared styles */
-
+* {
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+}
 
 /* header styles */
 
@@ -8,5 +11,3 @@
 
 
 /* footer styles */
-
-
