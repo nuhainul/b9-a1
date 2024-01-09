@@ -149,8 +149,54 @@ span .red {
     padding-left: 32px;
 }
 
+#venue-time {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    margin: auto;
+    text-align: center;
+}
+
+#venue-time .red {
+    color: #F00;
+}
+
 .venue-time-container {
     margin-top: 120px;
+    padding-top: 100px;
+    padding-bottom: 110px;
+    padding-left: 385px;
+    padding-right: 385px;
+    ;
+}
+
+.venue-time-container-sub {
+    color: #070211;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+
+.venue-join {
+    text-align: center;
+}
+
+.venue-join-btn {
+    background: #F00;
+    color: #FFF;
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    border: none;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .offer-2024-container {
@@ -347,19 +393,25 @@ hr {
 .address-container {
     /* # */
 }
-.cell, .website{
+
+.cell,
+.website {
     display: flex;
 }
 
-.cell-img, .web-img{
+.cell-img,
+.web-img {
     padding-right: 24px;
 }
-.cell-img img, .web-img img{
+
+.cell-img img,
+.web-img img {
     width: 24px;
     height: 24px;
     display: block;
     margin: auto;
 }
+
 .social-container {
     width: 328px;
     display: flex;
