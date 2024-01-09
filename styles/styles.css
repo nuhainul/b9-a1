@@ -8,7 +8,7 @@ header {
     margin-top: 50px;
 }
 
-span .red {
+.red {
     color: #F00;
 }
 
@@ -199,16 +199,84 @@ span .red {
     text-transform: uppercase;
 }
 
-.offer-2024-container {
+#offer-2024 {
+    width: 1320px;
+    height: 463px;
     margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer-2024-container {
+    display: flex;
+    font-family: Inter, sans-serif;
+    height: 463px;
+}
+
+.offer-2024-content {
+    width: 463px;
+    padding-top: 112px;
+}
+
+.offer-small-head {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.offer-head {
+    font-family: Merriweather, serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.offer-text {
+    width: 393px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 22px;
+    padding-bottom: 104px;
+    padding-right: 70px;
+}
+
+.potka {
+    width: 463px;
+}
+
+.potka img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49px 49px;
+}
+
+.right-24-box {
+    width: 394px;
+    padding-left: 118px;
+    padding-top: 112px;
+}
+
+.right-24-head {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.right-24-box-text {
+    padding-bottom: 43px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .holiday-sale-container {
     margin-top: 120px;
 }
 
-.portfolio-container {
+#portfolio {
     margin-top: 120px;
+}
+
+.portfolio-container {
     width: 1320px;
     /* height: 7335px; */
     /* border: 1px solid yellow; */
