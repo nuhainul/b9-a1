@@ -1,10 +1,5 @@
-/* shared styles */
-* {
-    font-family: 'Merriweather', serif;
-    /* color: #070211; */
-}
-
 body {
+    font-family: 'Merriweather', serif;
     margin: 0%;
     background: #FFF;
 }
@@ -170,7 +165,7 @@ span .red {
     margin-top: 120px;
     width: 1320px;
     /* height: 7335px; */
-    /* border: 1px solid rgb(255, 208, 0); */
+    /* border: 1px solid yellow; */
     text-align: left;
     margin: auto;
 }
@@ -181,7 +176,7 @@ span .red {
 
 .portfolio-small-head {
     color: #F00;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 24px;
     font-weight: 500;
     padding-bottom: 16px;
@@ -189,7 +184,7 @@ span .red {
 
 .portfolio-head {
     color: #070211;
-    font-family: Merriweather;
+    font-family: Merriweather, serif;
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
@@ -227,9 +222,11 @@ span .red {
     margin-bottom: 24px;
     border: none;
 }
+
 .portfolio-img img:hover {
     opacity: 0.3;
 }
+
 .port-img-group-1 {
     /* # */
 }
@@ -262,7 +259,7 @@ span .red {
 .subscribe-head {
     color: #070211;
     text-align: center;
-    font-family: Merriweather;
+    font-family: Merriweather, serif;
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
@@ -272,7 +269,7 @@ span .red {
 .subscribe-text {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -294,7 +291,7 @@ span .red {
     padding-left: 25px;
     color: rgba(7, 2, 17, 0.30);
     text-align: left;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 18px;
     font-weight: 400;
     width: 438px;
@@ -322,11 +319,63 @@ footer {
     width: 100%;
     background-color: #070211;
     color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+hr {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
 }
 
 .footer-container {
     width: 1320px;
     margin: auto;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding: 120px 140px;
+}
+
+.footer-content {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-container {
+    /* # */
+}
+.cell, .website{
+    display: flex;
+}
+
+.cell-img, .web-img{
+    padding-right: 24px;
+}
+.cell-img img, .web-img img{
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: auto;
+}
+.social-container {
+    width: 328px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.soc-item {
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: space-between;
 }
