@@ -2,6 +2,7 @@ body {
     font-family: 'Merriweather', serif;
     margin: 0%;
     background: #FFF;
+    border: none;
 }
 
 header {
@@ -522,7 +523,7 @@ hr {
 .footer-container {
     width: 1320px;
     margin: auto;
-    padding: 120px 140px;
+    padding: 120px 0px;
 }
 
 .footer-content {
