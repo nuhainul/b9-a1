@@ -50,6 +50,7 @@ header {
     text-align: center;
     font-size: 72px;
     font-weight: 900;
+    line-height: 95px;
 }
 
 /* main body styles */
@@ -167,8 +168,8 @@ header {
     margin-top: 120px;
     padding-top: 100px;
     padding-bottom: 110px;
-    padding-left: 385px;
-    padding-right: 385px;
+    padding-left: 384px;
+    padding-right: 384px;
     ;
 }
 
@@ -180,6 +181,7 @@ header {
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 48px;
+    line-height: 56px;
 }
 
 .venue-join {
@@ -202,7 +204,7 @@ header {
 
 #offer-2024 {
     width: 1320px;
-    height: 463px;
+    height: 493px;
     margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
@@ -239,6 +241,7 @@ header {
     padding-top: 22px;
     padding-bottom: 104px;
     padding-right: 70px;
+    line-height: 32px;
 }
 
 .potka {
@@ -264,9 +267,10 @@ header {
 }
 
 .right-24-box-text {
-    padding-bottom: 43px;
+    padding-bottom: 10px;
     font-size: 20px;
     font-weight: 400;
+    line-height: 32px;
 }
 
 #holiday-sale {
